@@ -1,4 +1,5 @@
 bin/cc.corelist.pl
+bin/cc.perlmodule.pl
 Build.PL
 Changelog.ini
 CHANGES
@@ -17,3 +18,5 @@ README
 scripts/copy.config.pl
 t/00.pod.t
 t/01.load.t
+t/test.corelist.t
+t/test.perlmodule.t
