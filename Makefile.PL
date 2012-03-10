@@ -8,7 +8,7 @@ WriteMakefile
  ($] ge '5.005') ?
  (
   AUTHOR   => 'Ron Savage (ron@savage.net.au)',
-  ABSTRACT => 'Cross-check Build.PL/Makefile.PL pre-reqs with Module::CoreList for a specific version of Perl',
+  ABSTRACT => 'Scripts to cross-check Build.PL/Makefile.PL with Module::CoreList, etc',
  ) : (),
  clean =>
  {
@@ -31,7 +31,7 @@ WriteMakefile
 	 File::HomeDir    => 0,
 	 File::Spec       => 0,
 	 Hash::FieldHash  => 0,
-	 Module::CoreList => 0,
+	 Module::CoreList => 2.61,
 	 Path::Class      => 0,
 	 Test::More       => 0,
 	 Test::Pod        => 0,

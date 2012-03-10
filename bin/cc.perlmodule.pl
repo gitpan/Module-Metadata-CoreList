@@ -41,7 +41,7 @@ cc.perlmodule.pl - Cross-check a module name or a version of Perl
 
 =head1 SYNOPSIS
 
-cc.corelist.pl [options]
+cc.perlmodule.pl [options]
 
 	Options:
 	-help
